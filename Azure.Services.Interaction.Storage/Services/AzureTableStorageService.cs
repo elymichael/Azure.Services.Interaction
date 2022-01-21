@@ -25,7 +25,8 @@
         /// <param name="option">Azure storage options</param>
         public AzureTableStorageService(
             ILoggerFactory loggerFactory,
-            IOptions<AzureTableStorageOptions> option) : base(option)
+            IOptions<AzureTableStorageOptions> option, 
+            CloudTable cloudTable) : base(option, cloudTable)
         {
             _logger = loggerFactory.CreateLogger<AzureTableStorageService<T>>();
         }

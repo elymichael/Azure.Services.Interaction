@@ -2,7 +2,6 @@ C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\bin\Debug\net5.0\Azure.Services.Interaction.Storage.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\bin\Debug\net5.0\ref\Azure.Services.Interaction.Storage.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\bin\Debug\net5.0\Azure.Services.Interaction.Storage.pdb
-C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.csproj.AssemblyReference.cache
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.GeneratedMSBuildEditorConfig.editorconfig
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.AssemblyInfoInputs.cache
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\ref\Azure.Services.Interaction.Storage.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.Storage\obj\Debug\net5.0\Azure.Services.Interaction.Storage.csproj.AssemblyReference.cache

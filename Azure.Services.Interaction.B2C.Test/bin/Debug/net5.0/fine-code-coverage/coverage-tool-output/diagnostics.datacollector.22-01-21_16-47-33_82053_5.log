@@ -1,0 +1,160 @@
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.000, 6122540815037, datacollector.dll, Version: 17.0.0-preview-20210512-01
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.009, 6122540881780, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,27986,--parentprocessid,16704,--diag,C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C.Test\bin\Debug\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-01-21_16-47-33_82053_5.log,--tracelevel,4
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.010, 6122540891859, datacollector.dll, DataCollector: Monitoring parent process with id: '16704'
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.025, 6122541046054, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:27986 
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.037, 6122541161213, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 25244, 5, 2022/01/21, 16:47:34.072, 6122541514667, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 25244, 5, 2022/01/21, 16:47:34.072, 6122541516273, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.201, 6122542808751, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.207, 6122542862922, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\sitcs\\Projects\\Azure.Services.Interaction\\Azure.Services.Interaction.B2C.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\sitcs\\Projects\\Azure.Services.Interaction\\Azure.Services.Interaction.B2C.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\sitcs\\Projects\\Azure.Services.Interaction\\Azure.Services.Interaction.B2C.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\Azure.Services.Interaction.B2C.Test.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.270, 6122543492085, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.271, 6122543503353, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions'.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.271, 6122543504322, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.297, 6122543765249, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.297, 6122543768138, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.297, 6122543768728, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.297, 6122543769089, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.298, 6122543778080, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions,C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.300, 6122543798527, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.300, 6122543800599, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543801199, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543801552, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543802205, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543803448, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions,C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543804274, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions,C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543808612, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.301, 6122543809421, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions'.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.302, 6122543819901, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.304, 6122543831483, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 25244, 1, 2022/01/21, 16:47:34.313, 6122543931160, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.315, 6122543950814, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.316, 6122543951978, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions'.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.316, 6122543960535, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.317, 6122543967435, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544014868, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544018859, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.100-preview.5.21302.13\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544019565, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544019923, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544020222, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544020509, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:34.322, 6122544020788, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.324, 6122544039354, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 25244, 1, 2022/01/21, 16:47:34.325, 6122544042475, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.334, 6122544132548, datacollector.dll, Listening on Endpoint : 127.0.0.1:27988
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.345, 6122544250183, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:34.369, 6122544483049, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 5308
+}
+TpTrace Information: 0 : 25244, 5, 2022/01/21, 16:47:34.738, 6122548177260, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 25244, 5, 2022/01/21, 16:47:34.738, 6122548178758, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.346, 6122564255087, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.360, 6122564398690, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.361, 6122564408989, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUsersActive_ok - 2ec0ec82-9d7f-d5b0-94aa-28f687a59715' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.582, 6122566619804, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.587, 6122566668589, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.594, 6122566733038, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUsersActive_ok - 2ec0ec82-9d7f-d5b0-94aa-28f687a59715' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.609, 6122566890736, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.610, 6122566894011, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.610, 6122566896674, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUserInfo_Throw_FailReturnCodeException_In_Get - 4eaa6b84-81de-c8d5-658d-ccfa7725b188' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.611, 6122566911129, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.612, 6122566915047, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.612, 6122566917323, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUserInfo_Throw_FailReturnCodeException_In_Get - 4eaa6b84-81de-c8d5-658d-ccfa7725b188' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.613, 6122566928153, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.614, 6122566932993, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.614, 6122566935463, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUserInfo_ok - 2e208ad0-659d-b30c-109b-2dbd4a5b399e' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.615, 6122566945370, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.615, 6122566949159, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.615, 6122566951058, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUserInfo_ok - 2e208ad0-659d-b30c-109b-2dbd4a5b399e' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.617, 6122566961534, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.617, 6122566965136, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.617, 6122566967207, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.AddUserInfo_Ok - da4f8c26-82b7-77f3-3664-763487d216f4' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.618, 6122566976105, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.618, 6122566979704, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.619, 6122566981780, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.AddUserInfo_Ok - da4f8c26-82b7-77f3-3664-763487d216f4' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.620, 6122566992728, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.620, 6122566996296, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.620, 6122566998341, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.SaveUserInfo_Ok - 9a66f8f3-50b5-7ae0-3c8d-c38a68aabad0' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.621, 6122567007223, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.621, 6122567011104, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.622, 6122567013073, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.SaveUserInfo_Ok - 9a66f8f3-50b5-7ae0-3c8d-c38a68aabad0' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.623, 6122567024799, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.623, 6122567028883, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.623, 6122567031082, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUsersActive_Throw_FailReturnCodeException_In_Get - 3310a7c5-56ef-a8e1-b6af-36eb0c4caf1f' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.625, 6122567045930, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.625, 6122567050497, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.626, 6122567052856, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.GetUsersActive_Throw_FailReturnCodeException_In_Get - 3310a7c5-56ef-a8e1-b6af-36eb0c4caf1f' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.627, 6122567064536, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.627, 6122567067287, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.627, 6122567068872, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_FailReturnCodeException_In_Put - 1f531e48-eac3-bb13-264c-1d40b4b156db' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.628, 6122567075412, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.628, 6122567077790, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.628, 6122567079216, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_FailReturnCodeException_In_Put - 1f531e48-eac3-bb13-264c-1d40b4b156db' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.629, 6122567086508, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.629, 6122567089764, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.630, 6122567091386, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Ok - 79f45df8-862d-ef10-5914-473da8be5b48' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.637, 6122567170657, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.638, 6122567175276, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.638, 6122567178035, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Ok - 79f45df8-862d-ef10-5914-473da8be5b48' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.639, 6122567190050, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.640, 6122567194564, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.640, 6122567197012, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.AddUserInfo_Throw_FailReturnCodeException_In_Post - 05a418a1-5812-eaf3-1b1c-82166ed097f6' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.641, 6122567206445, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.641, 6122567210928, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.642, 6122567213271, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.AddUserInfo_Throw_FailReturnCodeException_In_Post - 05a418a1-5812-eaf3-1b1c-82166ed097f6' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.695, 6122567743221, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.696, 6122567754422, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.696, 6122567758587, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Ok - eecc7484-457a-58a4-faef-b399c07ff7cb' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.697, 6122567769432, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.698, 6122567773478, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.698, 6122567775779, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Ok - eecc7484-457a-58a4-faef-b399c07ff7cb' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.700, 6122567795411, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.701, 6122567803787, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.701, 6122567808783, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_FailReturnCodeException_In_Get - c19bb45d-0921-9c4c-0cdf-4723dcb962b7' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.703, 6122567828461, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.704, 6122567835973, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.704, 6122567840670, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_FailReturnCodeException_In_Get - c19bb45d-0921-9c4c-0cdf-4723dcb962b7' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.706, 6122567859578, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.710, 6122567892950, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.710, 6122567899842, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Throw_FailReturnCodeException_In_Put - e162c600-9147-88a5-206b-11849ebf71aa' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.712, 6122567915101, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.713, 6122567923170, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.713, 6122567926970, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Throw_FailReturnCodeException_In_Put - e162c600-9147-88a5-206b-11849ebf71aa' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.715, 6122567951197, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.718, 6122567981282, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.719, 6122567985445, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.SaveUserInfo_Throw_FailReturnCodeException_In_Post - d5d9c78a-2b56-094e-16b0-752e99cb9813' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.720, 6122567997143, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.721, 6122568001742, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.721, 6122568004102, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.SaveUserInfo_Throw_FailReturnCodeException_In_Post - d5d9c78a-2b56-094e-16b0-752e99cb9813' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.722, 6122568016872, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.723, 6122568021454, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.723, 6122568025661, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Throw_FailReturnCodeException_In_Get - 77253d63-635e-7928-ae5f-3357793cd806' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.724, 6122568038494, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.725, 6122568042280, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.725, 6122568044614, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangeUserStatus_Throw_FailReturnCodeException_In_Get - 77253d63-635e-7928-ae5f-3357793cd806' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.726, 6122568054108, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.726, 6122568056759, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.726, 6122568058179, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_EntityNotFoundExceptions - ebe38f3a-a428-78a0-528a-40ae539c773c' started.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.727, 6122568064871, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.727, 6122568067348, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.727, 6122568068868, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'Azure.Services.Interaction.B2C.Test.Services.AzureB2CUserServiceTest.ChangePassword_Throw_EntityNotFoundExceptions - ebe38f3a-a428-78a0-528a-40ae539c773c' completed
+TpTrace Information: 0 : 25244, 8, 2022/01/21, 16:47:36.740, 6122568197887, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.821, 6122569006253, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.822, 6122569015600, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.822, 6122569016581, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.822, 6122569018283, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:36.822, 6122569019063, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 25244, 1, 2022/01/21, 16:47:36.822, 6122569020691, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.823, 6122569021847, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.827, 6122569064543, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.827, 6122569067500, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.827, 6122569068254, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 25244, 1, 2022/01/21, 16:47:36.827, 6122569068874, datacollector.dll, Program.Main: exiting datacollector process.

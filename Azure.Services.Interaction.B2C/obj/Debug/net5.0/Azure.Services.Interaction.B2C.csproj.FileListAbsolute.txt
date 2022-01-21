@@ -9,7 +9,6 @@ C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.B2C.pdb
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.pdb
-C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.csproj.CopyComplete
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\ref\Azure.Services.Interaction.B2C.dll
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.pdb

@@ -47,10 +47,14 @@
         {
             var service = new AzureBlobStorageService(_blobServiceClientMock.Object);
 
+            var file = new FileStream(
+                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "testDocument.txt"),
+                    FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.Read);
+
             var ex = await Record.ExceptionAsync(() => 
-                service.UploadBlobAsync("documents", "Documents/Test", new FileStream(
-                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "testDocument.txt"), 
-                    FileMode.OpenOrCreate)));
+                service.UploadBlobAsync("documents", "Documents/Test", file));
+
+            file.Close();
 
             Assert.Null(ex);
         }
@@ -59,12 +63,14 @@
         public async Task GetAllBlobName_Returns_Success()
         {
             var service = new AzureBlobStorageService(_blobServiceClientMock.Object);
+            var file = new FileStream(
+                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "testDocument.txt"),
+                    FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.Read);
 
             var ex = await Record.ExceptionAsync(() =>
-                service.UploadBlobAsync("documents", "Documents/Test", new FileStream(
-                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "testDocument.txt"),
-                    FileMode.OpenOrCreate)));
+                service.UploadBlobAsync("documents", "Documents/Test", file));
 
+            file.Close();
             Assert.Null(ex);
         }
 
