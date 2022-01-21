@@ -3,6 +3,7 @@
     using Azure.Services.Interaction.B2C.Configuration;
     using Azure.Services.Interaction.B2C.Contracts;
     using Azure.Services.Interaction.B2C.Services;
+    using Azure.Services.Interaction.RestClient;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
 
@@ -20,10 +21,12 @@
         /// <returns>Service Collection</returns>
         public static IServiceCollection AddAzureB2CServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddHttpClientAndPolicyFactory();
+
             services
                 .AddTransient<IAuthenticationContextWrapper, AuthenticationContextWrapper>()
                 .AddTransient<IAzureB2CUserService, AzureB2CUserService>();
-
+                        
             services.Configure<AzureB2CClientOptions>(configuration.GetSection("AzureB2CClient"));
 
             return services;
