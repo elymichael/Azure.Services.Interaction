@@ -6,6 +6,13 @@
  - Access to Azure Services.
  - Visual Studio 2019 or greater.
  
+ ## Reference table
+ 
+ - [Description](#Description)
+ - [Implementation](#Implementation)
+ - [Azure Configuration](#Azure-Configuration)
+
+
  ## Description
  This project will help us to interact with some Azure functions more easy. The idea is allow to the user interact quickly to the users with the following functionalities:
  
