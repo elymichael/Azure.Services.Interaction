@@ -17,6 +17,31 @@
 
 To implement the 3 services defined in this solution we need to follow the next steps:
 
+#### Service Bus implementation
+Add the reference to your API project, after that, open the startup file and include the service registration.
+```
+// Add Azure Service Bus Service.
+services.AddAzureServiceBusServices(Configuration);          
+```
+Now, you are able to use the service.
+
+#### Service Storage implementation
+Add the reference to your API project, after that, open the startup file and include the service registration.
+```
+// Add Azure Storage Blob and Table Service.
+services.AddAzureStorageServices(Configuration);
+services.AddTransient<IAzureTableStorage<ItemTransaction>, AzureTableStorageService<ItemTransaction>>();
+```
+
+#### Service B2C implementation
+Add the reference to your API project, after that, open the startup file and include the service registration.
+```
+// Add Azure B2C Service.
+services.AddAzureB2CServices(Configuration);
+            
+// Add HttpClient And Polity Factory, Support for B2C Service.
+services.AddHttpClientAndPolicyFactory();
+```
 ## Azure Configuration
 
 To find the configuration used in our implementation, find the information provided below when you configure  your Azure Service. This information will provide you the functionalities required to configure our services.
