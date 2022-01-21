@@ -36,8 +36,7 @@ Now, you are able to use the service.
 Add the reference to your API project, after that, open the startup file and include the service registration. For table storage we are passing the domain class derived of the TableEntity owner with the structure to save.
 ```
 // Add Azure Storage Blob and Table Service.
-services.AddAzureStorageServices(Configuration);
-services.AddTransient<IAzureTableStorage<ItemTransaction>, AzureTableStorageService<ItemTransaction>>();
+services.AddAzureStorageServices<ItemTransaction>(Configuration);
 ```
 
 #### Service B2C implementation
