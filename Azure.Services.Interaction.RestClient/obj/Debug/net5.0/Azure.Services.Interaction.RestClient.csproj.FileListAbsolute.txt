@@ -1,0 +1,12 @@
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.AssemblyInfoInputs.cache
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.AssemblyInfo.cs
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.csproj.CoreCompileInputs.cache
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.deps.json
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\bin\Debug\net5.0\ref\Azure.Services.Interaction.RestClient.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\ref\Azure.Services.Interaction.RestClient.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.RestClient\obj\Debug\net5.0\Azure.Services.Interaction.RestClient.csproj.AssemblyReference.cache

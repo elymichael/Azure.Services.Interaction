@@ -1,0 +1,15 @@
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.csproj.AssemblyReference.cache
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.GeneratedMSBuildEditorConfig.editorconfig
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.AssemblyInfoInputs.cache
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.AssemblyInfo.cs
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.csproj.CoreCompileInputs.cache
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.B2C.deps.json
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.B2C.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\ref\Azure.Services.Interaction.B2C.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.B2C.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.csproj.CopyComplete
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\ref\Azure.Services.Interaction.B2C.dll
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.B2C\obj\Debug\net5.0\Azure.Services.Interaction.B2C.pdb
