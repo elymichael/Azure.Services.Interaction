@@ -26,7 +26,7 @@ services.AddAzureServiceBusServices(Configuration);
 Now, you are able to use the service.
 
 #### Service Storage implementation
-Add the reference to your API project, after that, open the startup file and include the service registration.
+Add the reference to your API project, after that, open the startup file and include the service registration. For table storage we are passing the domain class derived of the TableEntity owner with the structure to save.
 ```
 // Add Azure Storage Blob and Table Service.
 services.AddAzureStorageServices(Configuration);
