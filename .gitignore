@@ -1,6 +1,6 @@
 
-Azure.Services.Interaction.API/obj/Container/ContainerDevelopmentMode.cache
 *.cache
 *.v2
 .vs/Azure.Services.Interaction/v16/.suo
 .vs/Azure.Services.Interaction/DesignTimeBuild/.dtbcache.v2
+vs/
