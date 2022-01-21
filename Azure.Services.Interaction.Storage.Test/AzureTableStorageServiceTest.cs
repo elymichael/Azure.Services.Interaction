@@ -9,7 +9,6 @@ namespace Azure.Services.Interaction.Storage.Test
     using Microsoft.Extensions.Options;
     using Moq;
     using System;
-    using System.Threading;
     using System.Threading.Tasks;
     using Xunit;
 
@@ -84,13 +83,5 @@ namespace Azure.Services.Interaction.Storage.Test
         {
             return new ItemTransaction(GuidId, $"{GuidId}.txt", "CREATED");
         }
-    }
-
-    public class CloudTableMock : CloudTable
-    {
-        public CloudTableMock() : base(new Uri("http://127.0.0.1:10002/devstoreaccount1/"))
-        {
-        }
-    }
-
+    }  
 }
