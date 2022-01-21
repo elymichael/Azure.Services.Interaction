@@ -51,10 +51,7 @@ namespace Azure.Services.Interaction.API
 
             // Add Azure B2C Service.
             services.AddAzureB2CServices(Configuration);
-            
-            // Add HttpClient And Polity Factory, Support for B2C Service.
-            services.AddHttpClientAndPolicyFactory();
-            
+                        
             // Add Azure Service Bus Service.
             services.AddAzureServiceBusServices(Configuration);
 
