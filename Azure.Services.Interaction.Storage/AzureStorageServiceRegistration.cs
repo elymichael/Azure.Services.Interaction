@@ -6,6 +6,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using Azure.Services.Interaction.Storage.Contracts;
     using Azure.Services.Interaction.Storage.Services;
+    using Microsoft.Azure.Cosmos.Table;
 
     /// <summary>
     /// Azure Storage Service Registration.
@@ -18,7 +19,7 @@
         /// <param name="services">Services Collection.</param>
         /// <param name="configuration">Configuration.</param>
         /// <returns>Services Collection.</returns>
-        public static IServiceCollection AddAzureStorageServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddAzureStorageServices<T>(this IServiceCollection services, IConfiguration configuration) where T: TableEntity
         {
             var config = configuration.GetSection("AzureServiceStorage");
             
@@ -26,6 +27,15 @@
 
             services.AddSingleton(x => new BlobServiceClient(config.GetValue<string>("ConnectionString")));
             services.AddTransient<IAzureBlobStorage, AzureBlobStorageService>();
+            services.AddTransient<IAzureTableStorage<T>, AzureTableStorageService<T>>();
+
+            services.AddSingleton(provider =>
+            {                
+                CloudStorageAccount storageAccount = CloudStorageAccount.Parse(config.GetValue<string>("ConnectionString"));
+                CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+                CloudTable table = tableClient.GetTableReference(typeof(T).Name);
+                return table;
+            });
 
             return services;
         }

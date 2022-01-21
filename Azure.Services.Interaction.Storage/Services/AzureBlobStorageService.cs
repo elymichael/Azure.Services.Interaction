@@ -69,7 +69,7 @@
         /// <returns>No content</returns>
         public async Task UploadBlobAsync(string containerName, string name, Stream file)
         {
-            await UploadBlobAsync(containerName, name, file);
+            await UploadBlobAsync(containerName, name, file, false);
         }
 
         /// <summary>

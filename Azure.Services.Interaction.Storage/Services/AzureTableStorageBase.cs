@@ -16,13 +16,15 @@
         /// Storage options.
         /// </summary>
         private readonly AzureTableStorageOptions _azureTableStorageOptions;
+        private readonly CloudTable _cloudTable;
         /// <summary>
         /// Default constructor.
         /// </summary>
         /// <param name="option">Azure storage options.</param>
-        internal AzureTableStorageBase(IOptions<AzureTableStorageOptions> option)
+        internal AzureTableStorageBase(IOptions<AzureTableStorageOptions> option, CloudTable cloudTable)
         {
             _azureTableStorageOptions = option.Value;
+            _cloudTable = cloudTable;
         }
         /// <summary>
         /// Execute operation.
@@ -33,28 +35,8 @@
         {
             try
             {
-                var table = await GetTable();
-                var tableResult = await table.ExecuteAsync(tableOperation);
+                var tableResult = await _cloudTable.ExecuteAsync(tableOperation);
                 return tableResult.Result;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-        /// <summary>
-        /// Retrieve the table.
-        /// </summary>
-        /// <returns>CloudTable.</returns>
-        internal async Task<CloudTable> GetTable()
-        {
-            try
-            {                
-                var storageAccount = CloudStorageAccount.Parse(_azureTableStorageOptions.ConnectionString);
-                var tableClient = storageAccount.CreateCloudTableClient(new TableClientConfiguration());
-                var table = tableClient.GetTableReference(typeof(T).Name);
-                await table.CreateIfNotExistsAsync();
-                return table;
             }
             catch (Exception)
             {

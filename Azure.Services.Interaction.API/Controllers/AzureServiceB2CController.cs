@@ -46,11 +46,11 @@
         /// Get User Info.
         /// </summary>
         /// <returns>Status code</returns>
-        [HttpGet("GetUserInfo")]
+        [HttpGet("GetUserbyDate")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> GetUserInfo(DateTime filterDate)
+        public async Task<IActionResult> GetUserbyDate(DateTime filterDate)
         {
             if (!ModelState.IsValid)
             {

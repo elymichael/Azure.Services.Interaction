@@ -59,9 +59,8 @@ namespace Azure.Services.Interaction.API
             services.AddAzureServiceBusServices(Configuration);
 
             // Add Azure Storage Blob and Table Service.
-            services.AddAzureStorageServices(Configuration);
-            services.AddTransient<IAzureTableStorage<ItemTransaction>, AzureTableStorageService<ItemTransaction>>();
-
+            services.AddAzureStorageServices<ItemTransaction>(Configuration);
+            
             services.AddAuthentication();
             services.AddAuthorization();
 
