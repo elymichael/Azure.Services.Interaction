@@ -1,26 +1,16 @@
-using Azure.Services.Interaction.API.Model;
-using Azure.Services.Interaction.B2C;
-using Azure.Services.Interaction.RestClient;
-using Azure.Services.Interaction.ServiceBus;
-using Azure.Services.Interaction.Storage;
-using Azure.Services.Interaction.Storage.Contracts;
-using Azure.Services.Interaction.Storage.Services;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Azure.Services.Interaction.API
 {
+    using Azure.Services.Interaction.API.Model;
+    using Azure.Services.Interaction.B2C;
+    using Azure.Services.Interaction.ServiceBus;
+    using Azure.Services.Interaction.Storage;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Logging;
+    using Microsoft.OpenApi.Models;
     public class Startup
     {
         public Startup(IConfiguration configuration)
