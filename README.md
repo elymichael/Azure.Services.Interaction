@@ -11,6 +11,7 @@
  - [Description](#Description)
  - [Implementation](#Implementation)
  - [Azure Configuration](#Azure-Configuration)
+ - [Testing](#Testing)
 
 
  ## Description
@@ -75,3 +76,6 @@ This is the configuration you get when you configure the Azure B2C service to in
 - [ ] **ClientId:** "xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
 - [ ] **Domain:** "xxxxxxx.onmicrosoft.com"
 - [ ] **SignUpSignInPolicyId:** "B2C_1_JustSignIn"
+
+## Testing
+For testing purpose, we included a testing project <a href='https://github.com/elymichael/Azure.Services.Interaction/tree/main/Azure.Services.Interaction.API'> Azure.Services.Integration.API</a> to see how to implement the different libraries in your .net core API project. These libraries can be execute in API or any other type of application.
