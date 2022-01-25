@@ -77,3 +77,4 @@ C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.API\bin\
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.API\bin\Debug\net5.0\Azure.Services.Interaction.ServiceBus.pdb
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.API\bin\Debug\net5.0\Azure.Services.Interaction.Storage.pdb
 C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.API\bin\Debug\net5.0\Azure.Services.Interaction.RestClient.pdb
+C:\sitcs\Projects\Azure.Services.Interaction\Azure.Services.Interaction.API\obj\Debug\net5.0\Azure.Services.Interaction.API.csproj.CopyComplete

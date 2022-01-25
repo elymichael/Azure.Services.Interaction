@@ -17,4 +17,8 @@
     <ProjectReference Include="..\Azure.Services.Interaction.Storage\Azure.Services.Interaction.Storage.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Img\" />
+  </ItemGroup>
+
 </Project>
