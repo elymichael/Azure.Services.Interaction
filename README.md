@@ -106,4 +106,6 @@ This is the configuration you get when you configure the Azure B2C service to in
 - [ ] **SignUpSignInPolicyId:** "B2C_1_JustSignIn"
 
 ## Testing
-For testing purpose, we included a testing project <a href='https://github.com/elymichael/Azure.Services.Interaction/tree/main/Azure.Services.Interaction.API'> Azure.Services.Integration.API</a> to see how to implement the different libraries in your .net core API project. These libraries can be execute in API or any other type of application.
+For testing purpose, we included a testing project <a href='https://github.com/elymichael/Azure.Services.Interaction/tree/main/Azure.Services.Interaction.API'> Azure.Services.Integration.API</a> to see how to implement the different libraries in your .net core API project. These libraries can be execute in API or any other type of application. Para realizar las pruebas, descargue el proyecto e indique al proyecto **Azure.Services.Interaction.API** como "Set as startup project" and the swagger has some default configuration for testing purpose.
+
+![sample][https://github.com/elymichael/Azure.Services.Interaction/blob/main/Azure.Services.Interaction.API/Img/Sample-01.png]
