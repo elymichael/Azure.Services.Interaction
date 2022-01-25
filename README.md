@@ -27,24 +27,52 @@ To implement the 3 services defined in this solution we need to follow the next 
 
 #### Service Bus implementation
 Add the reference to your API project, after that, open the startup file and include the service registration.
-```
+```cs
 // Add Azure Service Bus Service.
 services.AddAzureServiceBusServices(Configuration);          
+```
+Json Settings.
+```json
+"ServiceBus": {
+ "ConnectionString": "Endpoint=sb://127.0.0.1:10005//;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xxxxxxx",
+ "QueueName": "main_queue"
+},
 ```
 Now, you are able to use the service.
 
 #### Service Storage implementation
 Add the reference to your API project, after that, open the startup file and include the service registration. For table storage we are passing the domain class derived of the TableEntity owner with the structure to save.
-```
+```cs
 // Add Azure Storage Blob and Table Service.
 services.AddAzureStorageServices<ItemTransaction>(Configuration);
 ```
-
+App Settings configuration using connnection string.
+```json
+"AzureServiceStorage": {
+    "ConnectionString": "BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=XxxxxXXXdfXxxxXsxxxmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6xx/K1SZFPTOtr/KBHBeksoXXXw==;"
+},
+```
 #### Service B2C implementation
 Add the reference to your API project, after that, open the startup file and include the service registration.
-```
+```cs
 // Add Azure B2C Service.
 services.AddAzureB2CServices(Configuration);
+```
+
+Add the following configuration to your appSettings.json file and change the data with your Azure B2C configuration.
+```json
+"AzureB2CClient": {
+    "TenantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "ClientId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "ClientSecret": "xxXxwxxbxxxx_xxxxxxxx_~xxxxxx-xxxx",
+    "TenantLoginUrl": "https://login.microsoftonline.com/",
+    "GraphResourceUrl": "https://graph.windows.net/",
+    "GraphVersion": "api-version=1.6",
+    "Instance": "https://ajuala.b2clogin.com",
+    "Domain": "ajuala.onmicrosoft.com",
+    "SignUpSignInPolicyId": "B2C_1_JustSignIn",
+    "AllowWebApiToBeAuthorizedByACL": true
+},
 ```
 ## Azure Configuration
 
