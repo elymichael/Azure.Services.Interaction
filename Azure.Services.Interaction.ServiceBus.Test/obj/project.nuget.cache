@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a4OtotwM5nM8JpGlmpeX1PtyaVnX+4FD+QWqwrzfzW9pw77zGPHvaMnMsF54tV3Uqk6bGRy3er9pgy12Mrx2ig==",
+  "dgSpecHash": "j1ZETWlWQI/06BG5qIhLzgL5o46KKy+x8IWqgHuXKIfDfr3Vt/gwIF4bmeWFbmyKLQVCUeeyk4tj+QWUxpKGyw==",
   "success": true,
   "projectFilePath": "C:\\sitcs\\Projects\\Azure.Services.Interaction\\Azure.Services.Interaction.ServiceBus.Test\\Azure.Services.Interaction.ServiceBus.Test.csproj",
   "expectedPackageFiles": [

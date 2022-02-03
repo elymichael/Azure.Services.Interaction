@@ -14,23 +14,37 @@
     public static class AzureStorageServiceRegistration
     {
         /// <summary>
-        /// Add Azure Storage Service Registration.
+        /// Add azure blob storage services.
         /// </summary>
-        /// <param name="services">Services Collection.</param>
-        /// <param name="configuration">Configuration.</param>
-        /// <returns>Services Collection.</returns>
-        public static IServiceCollection AddAzureStorageServices<T>(this IServiceCollection services, IConfiguration configuration) where T: TableEntity
+        /// <param name="services">Service collection extension method.</param>
+        /// <param name="configuration">Configuration parameter.</param>
+        /// <returns>Service collection.</returns>
+        public static IServiceCollection AddAzureBlobStorageServices(this IServiceCollection services, IConfiguration configuration)
         {
             var config = configuration.GetSection("AzureServiceStorage");
-            
+
+            services.AddTransient<IAzureBlobStorage, AzureBlobStorageService>();
+            services.AddSingleton(x => new BlobServiceClient(config.GetValue<string>("ConnectionString")));
+
+            return services;
+        }
+
+        /// <summary>
+        /// Add azure table storage services.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="services">Service collection extension method.</param>
+        /// <param name="configuration">Configuration parameter.</param>
+        /// <returns>Service collection.</returns>
+        public static IServiceCollection AddAzureTableStorageServices<T>(this IServiceCollection services, IConfiguration configuration) where T : TableEntity
+        {
+            var config = configuration.GetSection("AzureServiceStorage");
+
+            services.AddTransient<IAzureTableStorage<T>, AzureTableStorageService<T>>();
             services.Configure<AzureTableStorageOptions>(config);
 
-            services.AddSingleton(x => new BlobServiceClient(config.GetValue<string>("ConnectionString")));
-            services.AddTransient<IAzureBlobStorage, AzureBlobStorageService>();
-            services.AddTransient<IAzureTableStorage<T>, AzureTableStorageService<T>>();
-
             services.AddSingleton(provider =>
-            {                
+            {
                 CloudStorageAccount storageAccount = CloudStorageAccount.Parse(config.GetValue<string>("ConnectionString"));
                 CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
                 CloudTable table = tableClient.GetTableReference(typeof(T).Name);

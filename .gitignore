@@ -1,8 +1,18 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-*.cache
+*.suo
+*.sqlite
+/.vs
+/Azure.Services.Interaction.API/obj
+/Azure.Services.Interaction.B2C/bin/Debug/net5.0
+/Azure.Services.Interaction.B2C/obj
+/Azure.Services.Interaction.B2C.Test/bin/Debug/net5.0
+/Azure.Services.Interaction.B2C.Test/obj
+/Azure.Services.Interaction.RestClient/obj
+/Azure.Services.Interaction.ServiceBus/obj
+/Azure.Services.Interaction.ServiceBus.Test/obj
+/Azure.Services.Interaction.Storage/obj
+/Azure.Services.Interaction.Storage.Test/obj
 *.v2
-.vs/Azure.Services.Interaction/v16/.suo
-.vs/Azure.Services.Interaction/DesignTimeBuild/.dtbcache.v2
-.vs/
-/ ./vs
-/ .vs

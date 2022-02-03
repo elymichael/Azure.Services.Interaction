@@ -28,7 +28,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://nuget.pkg.github.com/MedallionBank/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -118,7 +119,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {},
+          "https://nuget.pkg.github.com/MedallionBank/index.json": {}
         },
         "frameworks": {
           "net5.0": {
